@@ -10,7 +10,7 @@ body {
   }
   
   h1 {
-    width: 400px;
+    width: 370px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 35px;
@@ -21,7 +21,7 @@ body {
 .container {
   padding: 40px;
   background-color: rgba(15, 15, 5, 0.699);
-  width: 400px;
+  width: 370px;
   margin: 0 auto;
   border: 2px solid;
 }
@@ -51,7 +51,7 @@ input {
   font-size: 25px;
   background-color: rgba(15, 15, 5, 0.699);
   margin: 0 auto;
-  width: 400px;
+  width: 370px;
   height: 50px;
   margin-top: 30px;
   padding: 40px;
@@ -69,4 +69,81 @@ button {
   border-color: darkred;
   font-family: Arial;
   font-size: 20px;
+}
+
+
+@media only screen and (max-width: 500px){
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  input {
+    width: 290px;
+  }
+
+  button {
+    width: 290px;
+  }
+
+  #output {
+    width: 300px;
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 435px){
+ 
+  .container {
+    width: 250px;
+  }
+
+  input {
+    width: 95%;
+    height: auto;
+    font-size: 18px;
+  }
+
+  button {
+    width: 95%;
+    height: auto;
+  }
+
+  #output {
+    width: 250px;
+    font-size: 20px;
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 435px){
+ 
+  h1{
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .container p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 180px;
+    padding: 25px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+
+  #output {
+    width: 180px;
+    font-size: 16px;
+    padding: 8px;
+  }
 }

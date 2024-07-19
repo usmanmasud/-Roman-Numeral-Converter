@@ -5,7 +5,7 @@ const result = document.getElementById('output');
 
 const checkInput = (e) => {
     if (!numberInput.value) {
-        result.innerText = "Please enter a valid number"
+        result.innerText = "Please enter a valid number!"
         result.style.color = 'red' 
     } else if (numberInput.value < 0) {
         result.innerText = "Please enter a number greater than or equal to 1"
