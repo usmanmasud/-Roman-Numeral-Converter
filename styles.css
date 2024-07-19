@@ -10,7 +10,10 @@ body {
   }
   
   h1 {
+    width: 400px;
+    margin: auto;
     margin-top: 100px;
+    margin-bottom: 35px;
     font-size: 40px;
     line-height: 50px; 
   }
